@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExLayoutAninhadoTarde</string>
+
+    <string name="row_one">row one</string>
+    <string name="row_two">row two</string>
+    <string name="row_three">row three</string>
+    <string name="row_four">row four</string>
+
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="yellow">YELLOW</string>
+</resources>

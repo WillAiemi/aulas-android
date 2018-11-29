@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/red500"
+                android:text="@string/red"
+                style="@style/buttons"
+                android:gravity="center_horizontal"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/green500"
+                android:text="@string/green"
+                style="@style/buttons"
+                android:gravity="center_horizontal"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/blue500"
+                android:text="@string/blue"
+                style="@style/buttons"
+                android:gravity="center_horizontal"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/yellowA700"
+                android:text="@string/yellow"
+                style="@style/buttons"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/row_one"
+                android:layout_weight="1"
+                style="@style/rows"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/row_two"
+                android:layout_weight="1"
+                style="@style/rows"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/row_three"
+                android:layout_weight="1"
+                style="@style/rows"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/row_four"
+                android:layout_weight="1"
+                style="@style/rows"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

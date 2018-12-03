@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ExAula5Tarde</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TOAST -->
+    <string name="toast_hello">Hello... friday??</string>
+
+    <!-- ALERT -->
+    <string name="alert_title">Title alert</string>
+    <string name="alert_message">Hello alert</string>
+    <string name="alert_neutral_button">Ok</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExOnClickOnLongClick</string>
+
+    <string name="bt_click">Dança LOCO</string>
+    <string name="bt_long_click">Dança INSANO</string>
+    <string name="bt_normal">tá tudo normal nada ocorreu ok</string>
+</resources>

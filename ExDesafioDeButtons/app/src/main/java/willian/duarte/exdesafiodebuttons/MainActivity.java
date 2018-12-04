@@ -37,14 +37,14 @@ public class MainActivity extends AppCompatActivity {
         this.bt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toast("Botão 3 clique simples: CHECK");
+                toast("Botão 4 clique simples: FUNCIONANDO DE BOA");
             }
         });
 
         this.bt4.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                toast("Botão 3 clique longo: MUITO BOM");
+                toast("Botão 4 clique longo: sto' emocionado...");
                 return true;
             }
         });

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink200"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Descubra suas chances com aquele/a crush!"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/ma_et_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ma_et_name"
+        style="@style/et_crush"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/draw_et_crush"
+        android:ems="10"
+        android:hint="Seu nome"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toTopOf="@+id/ma_et_crush"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/ma_et_crush"
+        style="@style/et_crush"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome do seu crush"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ma_bt_calc"
+        app:layout_constraintEnd_toEndOf="@+id/ma_et_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/ma_et_name"
+        app:layout_constraintTop_toBottomOf="@+id/ma_et_name" />
+
+    <Button
+        android:id="@+id/ma_bt_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="calcular amor"
+        android:padding="15dp"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toTopOf="@+id/ma_tv_loveMeter"
+        app:layout_constraintEnd_toEndOf="@+id/ma_et_crush"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/ma_et_crush"
+        app:layout_constraintTop_toBottomOf="@+id/ma_et_crush" />
+
+    <TextView
+        android:id="@+id/ma_tv_loveMeter"
+        android:gravity="center"
+        android:text="0%"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_bt_calc"
+        android:background="@drawable/heart"/>
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+</android.support.constraint.ConstraintLayout>

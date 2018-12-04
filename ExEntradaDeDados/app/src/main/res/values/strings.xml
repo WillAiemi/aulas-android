@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExEntradaDeDados</string>
+    <string name="ma_et_name">Digite seu nome</string>
+    <string name="ma_et_age">Idade</string>
+    <string name="ma_et_weight">Peso</string>
+    <string name="ma_bt_ok">Ok</string>
+</resources>

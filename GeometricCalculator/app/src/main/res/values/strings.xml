@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GeometricCalculator</string>
+    <string name="ma_tv_shape">Select the shape</string>
+    <string name="ma_rb_circle">Circle</string>
+    <string name="ma_rb_circle_shape">○</string>
+    <string name="ma_rb_square">Square</string>
+    <string name="ma_rb_square_shape">□</string>
+    <string name="ma_rb_triangle">Triangle</string>
+    <string name="ma_rb_triangle_shape">△</string>
+    <string name="ma_rb_rectangle">Rectangle</string>
+    <string name="ma_rb_rectangle_shape">▭</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.MainActivity">
+
+
+    <EditText
+        android:id="@+id/ma_et_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/ma_et_name_hint"
+        android:inputType="textPersonName"
+        android:background="@drawable/et_background"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/ma_et_n1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ma_et_n1"
+        style="@style/ma_et_N"
+        android:hint="@string/ma_et_n1"
+        app:layout_constraintBottom_toTopOf="@+id/ma_rg_sex"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_et_name" />
+
+    <EditText
+        android:id="@+id/ma_et_n2"
+        style="@style/ma_et_N"
+        android:hint="@string/ma_et_n2"
+        app:layout_constraintBottom_toBottomOf="@+id/ma_et_n1"
+        app:layout_constraintStart_toEndOf="@+id/ma_et_n1"
+        app:layout_constraintTop_toTopOf="@+id/ma_et_n1"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <RadioGroup
+        android:id="@+id/ma_rg_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ma_bt_register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_et_n1">
+
+        <RadioButton
+            android:id="@+id/ma_rb_male"
+            style="@style/ma_rb"
+            android:text="@string/ma_rb_male" />
+
+        <RadioButton
+            android:id="@+id/ma_rb_female"
+            style="@style/ma_rb"
+            android:text="@string/ma_rb_female" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ma_bt_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/ma_bt_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_rg_sex" />
+
+</android.support.constraint.ConstraintLayout>

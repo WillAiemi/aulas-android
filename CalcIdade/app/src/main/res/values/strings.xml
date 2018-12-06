@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Age Calculator</string>
+    <string name="ma_et_name_hint">Type your name</string>
+    <string name="ma_et_name">Name</string>
+    <string name="ma_et_age_hint">Age</string>
+    <string name="ma_bt_calc">Calculate</string>
+
+    <string name="age_in">Age in</string>
+    <string name="months">months</string>
+    <string name="weeks">weeks</string>
+    <string name="days">days</string>
+</resources>

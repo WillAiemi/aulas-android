@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de Idade</string>
+    <string name="ma_et_name_hint">Digite seu nome</string>
+    <string name="ma_et_name">Nome</string>
+    <string name="ma_et_age_hint">Idade</string>
+    <string name="ma_bt_calc">Calcular</string>
+
+    <string name="age_in">Idade em</string>
+    <string name="months">meses</string>
+    <string name="weeks">semanas</string>
+    <string name="days">dias</string>
+</resources>

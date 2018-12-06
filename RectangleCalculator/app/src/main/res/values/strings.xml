@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rectangle Calculator</string>
+    <string name="ma_et_width_hint">Width</string>
+    <string name="ma_et_height_hint">Height</string>
+    <string name="ma_bt_calc">Calculate</string>
+
+    <string name="area">Area</string>
+    <string name="perimeter">Perimeter</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="alert_neutral_button">Ok</string>
+
+    <string name="et_width_error">Type the width</string>
+    <string name="et_height_error">Type the height</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExerciciosIntentPermissions</string>
+    <string name="ma_bt_tela1">Tela 1</string>
+    <string name="s1_et_name_hint">Name</string>
+    <string name="s1_et_age_hint">Age</string>
+    <string name="s1_bt_ok">Ok</string>
+    <string name="ma_bt_tela2">Tela 2</string>
+    <string name="s2_et_sentence">Sentence</string>
+    <string name="s3_bt_call">Call</string>
+    <string name="s3_et_phone_hint">Phone</string>
+    <string name="ma_bt_tela3">Tela 3</string>
+    <string name="ma_bt_tela4">Tela 4</string>
+</resources>

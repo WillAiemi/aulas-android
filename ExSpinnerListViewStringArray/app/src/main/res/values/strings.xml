@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ExSpinnerListViewStringArray</string>
+    <string name="lc_bt_ma1">Strings Array</string>
+    <string name="lc_bt_ma2">Array Adapter</string>
+    <string name="ma2_et_nome">Nome</string>
+
+    <string-array name="ma_sp_contatos">
+        <item>Selecione</item>
+        <item>João</item>
+        <item>Brenda</item>
+        <item>Sarah</item>
+        <item>Cauê</item>
+        <item>Gabriella</item>
+        <item>Nicollas</item>
+        <item>Víctor</item>
+        <item>Leonel</item>
+        <item>Nyarons</item>
+        <item>Pewdiepie</item>
+    </string-array>
+</resources>

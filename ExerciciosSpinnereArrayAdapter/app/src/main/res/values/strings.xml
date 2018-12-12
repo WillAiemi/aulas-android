@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Exercicios Spinner e ArrayAdapter</string>
+    <string name="ma_bt_ex1">Exercício 1</string>
+    <string name="ma_bt_ex2">Exercício 2</string>
+    <string name="ma_bt_ex3">Exercício 3</string>
+    <string name="ma_bt_ex4">Exercício 4</string>
+    <string name="ex1_bt_ok">Escolha o sexo</string>
+    <string name="ex3_bt_ok">Cadastrar</string>
+    <string name="ex3_et_nome">Insira um nome</string>
+    <string name="ex4_et_nome">Nome</string>
+    <string name="ex4_et_idade">Idade</string>
+
+    <string-array name="ex1_sp_sexo">
+        <item>Selecione</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+</resources>

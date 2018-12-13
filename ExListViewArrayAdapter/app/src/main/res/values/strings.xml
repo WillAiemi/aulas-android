@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExListViewArrayAdapter</string>
+    <string name="ma_et_nome">Nome</string>
+    <string name="ma_et_idade">Idade</string>
+</resources>
